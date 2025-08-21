@@ -5,3 +5,45 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+@keyframes fadein {
+  0% { opacity: 0; transform: translateY(12px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadein-100 { animation: fadein .6s ease-out forwards; animation-delay: .0s; }
+.animate-fadein-200 { animation: fadein .8s ease-out forwards; animation-delay: .1s; }
+.animate-fadein-300 { animation: fadein .8s ease-out forwards; animation-delay: .2s; }
+.animate-fadein-400 { animation: fadein .8s ease-out forwards; animation-delay: .35s; }
+
+@keyframes orb1 { 0%,100%{ transform: translate(0,0)} 50%{ transform: translate(10px,-20px)} }
+@keyframes orb2 { 0%,100%{ transform: translate(0,0)} 50%{ transform: translate(-15px,25px)} }
+.animate-orb1 { animation: orb1 8s ease-in-out infinite; }
+.animate-orb2 { animation: orb2 10s ease-in-out infinite; }
+
+/* ===== Scrollbar para navegadores basados en Webkit (Chrome, Edge, Safari) ===== */
+::-webkit-scrollbar {
+  width: 10px; /* ancho del scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1426; /* color de fondo */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #14b8a6; /* color del "thumb" */
+  border-radius: 6px;
+  border: 2px solid #0d1426; /* espacio entre thumb y track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0d9488; /* hover */
+}
+
+/* ===== Scrollbar para Firefox ===== */
+html {
+  scrollbar-width: thin;             /* thin | auto | none */
+  scrollbar-color: #14b8a6 #0d1426;  /* thumb | track */
+}

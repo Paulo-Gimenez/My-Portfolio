@@ -1,17 +1,17 @@
-import Navbar from "../components/Nav-bar";
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import Projects from "../sections/Projects";
+import Contact from "../sections/Contact";
+import Footer from "../sections/Footer";
 
 function Home() {
   return (
     <>
-      <div className="mt-16 w-screen h-screen bg-[url('/blob-scene-haikei.svg')] bg-no-repeat bg-cover bg-center">
-        <Navbar />
-        <div className="text-4xl flex ">
-          <div className="container mx-auto flex flex-col items-center justify-center h-full">
-            <p className="text-xl">This is a simple home page.</p>
-          </div>
-        </div>
-      </div>
-      
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
