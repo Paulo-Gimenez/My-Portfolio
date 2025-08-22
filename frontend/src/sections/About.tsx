@@ -48,7 +48,7 @@ function About() {
                 </div>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
-                    href="https://www.linkedin.com/in/paulogimenez"
+                    href="https://www.linkedin.com/in/paulo-gimenez-db"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-md bg-teal-500 px-4 py-2 text-sm font-semibold text-white hover:bg-teal-400"
