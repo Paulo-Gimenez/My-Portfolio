@@ -21,4 +21,4 @@ dist-ssr
 
 .env
 .env.local
-package-lock.
+package-lock
