@@ -5,7 +5,6 @@ export type Locale = "es" | "en";
 type Messages = Record<string, string>;
 
 const es: Messages = {
-	brand: "Paulo Gimenez",
 	cta_view_projects: "Ver proyectos",
 	cta_contact: "Contactar",
 	salutation: "¡HOLA!, yo soy",
@@ -28,7 +27,6 @@ const es: Messages = {
 };
 
 const en: Messages = {
-	brand: "Paulo Gimenez",
 	cta_view_projects: "View projects",
 	cta_contact: "Contact",
 	salutation: "¡HELLO!, I am",
