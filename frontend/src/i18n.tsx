@@ -24,6 +24,7 @@ const es: Messages = {
 	card1:"Interfaces modernas y accesibles, con foco en performance.",
 	card2:"Componentes tipados en TypeScript y arquitectura clara.",
 	card3:"Integración CI/CD y buenas prácticas para producción.",
+	contactDescription: "busco nuevas oportunidades y proyectos interesantes. ¡No dudes en contactarme!",
 };
 
 const en: Messages = {
@@ -47,6 +48,8 @@ const en: Messages = {
 	card1:"Modern and accessible interfaces, with a focus on performance.",
 	card2:"TypeScript-typed components and clear architecture.",
 	card3:"CI/CD integration and best practices for production.",
+	contactDescription: "I am looking for new opportunities and interesting projects. Feel free to reach out!",
+	
 };
 
 const LOCALES: Record<Locale, Messages> = { es, en };

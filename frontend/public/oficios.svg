@@ -1,0 +1,64 @@
+<svg
+  width="280"
+  height="280"
+  viewBox="0 0 280 280"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Icono industrial de oficios"
+>
+  <!-- Escudo base -->
+  <path
+    d="M60 50 H220 V140 C220 190 140 230 140 230 C140 230 60 190 60 140 Z"
+    fill="#1f3a5f"
+    stroke="#0f1f33"
+    stroke-width="6"
+  />
+
+  <!-- Línea de acento -->
+  <path
+    d="M70 65 H210"
+    stroke="#f28c28"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <!-- Martillo -->
+  <g transform="rotate(-30 140 145)">
+    <rect
+      x="130"
+      y="100"
+      width="16"
+      height="90"
+      rx="4"
+      fill="#8b5a2b"
+    />
+    <rect
+      x="108"
+      y="80"
+      width="60"
+      height="18"
+      rx="4"
+      fill="#2b2b2b"
+    />
+  </g>
+
+  <!-- Llave -->
+  <g transform="rotate(30 140 145)">
+    <rect
+      x="132"
+      y="105"
+      width="14"
+      height="85"
+      rx="4"
+      fill="#b0b7c3"
+    />
+    <circle
+      cx="139"
+      cy="95"
+      r="14"
+      fill="none"
+      stroke="#b0b7c3"
+      stroke-width="6"
+    />
+  </g>
+</svg>
